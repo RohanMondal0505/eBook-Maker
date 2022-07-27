@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container-fluid {
+	.navbar {
+		.nav-link {
+			color: rgb(212, 211, 211) !important;
+		}
+
+		.nav-edit {
+			li {
+				transition: all 0.5s ease-in-out;
+				margin-right: 5px;
+				width: 120px;
+				text-align: center;
+				&:hover > a {
+					border-radius: 25px;
+					background: rgb(212, 211, 211);
+					color: #000 !important;
+				}
+			}
+		}
+
+		.active > a {
+			font-weight: 600;
+			border-radius: 25px;
+			background: rgb(212, 211, 211);
+			color: #000 !important;
+		}
+	}
+
+	.container-fluid {
+		height: 90vh;
+		overflow-y: auto;
+		background: rgb(151, 148, 148);
+		position: relative;
+
+		.login-container {
+			margin-top: 100px !important;
+			max-width: 450px;
+		}
+		.register-container {
+			max-width: 450px;
+		}
+
+		.content {
+			background: #fff;
+			min-height: 30vh;
+			box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.3);
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		.table-cont {
+			max-height: 79vh;
+			overflow-y: scroll;
+
+			&::-webkit-scrollbar {
+				width: 6px;
+			}
+
+			/* Track */
+			&::-webkit-scrollbar-track {
+				background: #cccccc;
+			}
+
+			/* Handle */
+			&::-webkit-scrollbar-thumb {
+				background: rgb(116, 211, 255);
+			}
+
+			/* Handle on hover */
+			&::-webkit-scrollbar-thumb:hover {
+				background: rgb(33, 181, 250);
+			}
+
+			&::-webkit-scrollbar-button{
+				background: rgb(0, 167, 245);
+				cursor: pointer;
+			}
+		}
+
+		
+
+	}
+
+	.page-footer {
+		&.all-time-bottom {
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+		}
+
+		.footer-cont {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			padding: 0 10px 5px 0;
+			a {
+				cursor: pointer;
+				width: 40px;
+				text-decoration: none;
+				transition: all 0.3s ease-in-out;
+				i {
+					color: #fff;
+				}
+
+				&:nth-child(1):hover > i {
+					color: #3b5998;
+				}
+
+				&:nth-child(2):hover > i {
+					color: #00acee;
+				}
+
+				&:nth-child(3):hover > i {
+					color: #0072b1;
+				}
+
+				&:last-child:hover > i {
+					color: #171515;
+				}
+			}
+		}
+	}
+}

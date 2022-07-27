@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-fluid .navbar .nav-link {
+  color: #d4d3d3 !important;
+}
+
+.container-fluid .navbar .nav-edit li {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  margin-right: 5px;
+  width: 120px;
+  text-align: center;
+}
+
+.container-fluid .navbar .nav-edit li:hover > a {
+  border-radius: 25px;
+  background: #d4d3d3;
+  color: #000 !important;
+}
+
+.container-fluid .navbar .active > a {
+  font-weight: 600;
+  border-radius: 25px;
+  background: #d4d3d3;
+  color: #000 !important;
+}
+
+.container-fluid .container-fluid {
+  height: 90vh;
+  overflow-y: auto;
+  background: #979494;
+  position: relative;
+}
+
+.container-fluid .container-fluid .login-container {
+  margin-top: 100px !important;
+  max-width: 450px;
+}
+
+.container-fluid .container-fluid .register-container {
+  max-width: 450px;
+}
+
+.container-fluid .container-fluid .content {
+  background: #fff;
+  min-height: 30vh;
+  -webkit-box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container-fluid .container-fluid .table-cont {
+  max-height: 79vh;
+  overflow-y: scroll;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.container-fluid .container-fluid .table-cont::-webkit-scrollbar {
+  width: 6px;
+}
+
+.container-fluid .container-fluid .table-cont::-webkit-scrollbar-track {
+  background: #cccccc;
+}
+
+.container-fluid .container-fluid .table-cont::-webkit-scrollbar-thumb {
+  background: #74d3ff;
+}
+
+.container-fluid .container-fluid .table-cont::-webkit-scrollbar-thumb:hover {
+  background: #21b5fa;
+}
+
+.container-fluid .container-fluid .table-cont::-webkit-scrollbar-button {
+  background: #00a7f5;
+  cursor: pointer;
+}
+
+.container-fluid .page-footer.all-time-bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.container-fluid .page-footer .footer-cont {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 10px 5px 0;
+}
+
+.container-fluid .page-footer .footer-cont a {
+  cursor: pointer;
+  width: 40px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container-fluid .page-footer .footer-cont a i {
+  color: #fff;
+}
+
+.container-fluid .page-footer .footer-cont a:nth-child(1):hover > i {
+  color: #3b5998;
+}
+
+.container-fluid .page-footer .footer-cont a:nth-child(2):hover > i {
+  color: #00acee;
+}
+
+.container-fluid .page-footer .footer-cont a:nth-child(3):hover > i {
+  color: #0072b1;
+}
+
+.container-fluid .page-footer .footer-cont a:last-child:hover > i {
+  color: #171515;
+}
+/*# sourceMappingURL=style.css.map */
